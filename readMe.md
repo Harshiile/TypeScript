@@ -1,3 +1,0 @@
-- Syntax 
-- Type Alias
-- Arrays

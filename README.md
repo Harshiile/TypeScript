@@ -1,5 +1,8 @@
 # TypeScript
 
 ## Table of Contents
-- Variables & Functions
-- Type Aliases & Interfaces
+- Syntex for Variables & Functions
+- Type & Interfaces
+- Array
+- Tuples & Enums
+- Class
