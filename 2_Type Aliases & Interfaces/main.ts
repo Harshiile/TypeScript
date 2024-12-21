@@ -31,7 +31,36 @@ const setDetails = (user: User): User => {
 console.log(setDetails({ name: 'Harhsil', date: new Date(), city: 'Baroda', age: 22, isAbsent: false }));
 
 
+// Composite Type Alias : Existing type alias + new type alias
+type Employee = User & {
+    state: String,
+    country: String
+}
+
+const obj: Employee = {
+    name: 'Harhsil',
+    date: new Date(),
+    city: 'Baroda',
+    age: 22,
+    isAbsent: false,
+    state: 'GUJ',
+    country: 'INDIA',
+}
+
+
+// readonly keyword
+type UserTwo = {
+    readonly _id: number
+    name: string
+    age: number
+}
+
+const user: UserTwo = { _id: 453, name: 'Harhsil', age: 98 }
+// user._id = 11 // Can't overwrite due to readonly keyword
+
+
 // -----------------------------------------------------------------------------------------------------------------
 
 
-// Interfaces
+
+export { }
