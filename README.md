@@ -6,3 +6,5 @@
 - Array
 - Tuples & Enums
 - Class
+- Abstract classes
+- Generics
